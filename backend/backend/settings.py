@@ -3,11 +3,15 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+
 SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^'
 
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['gulnara.freedynamicdns.org', '51.250.102.41', '127.0.0.1', '0.0.0.0', 'localhost']
+ALLOWED_HOSTS = ['51.250.30.138', '127.0.0.1', 'localhost', 'thedrugojkira.zapto.org']
+
+
+# Application definition
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
